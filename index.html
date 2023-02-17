@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="left-column">
+      <div
+        class="top-pane code-editor"
+        id="template"
+        contenteditable="plaintext-only"
+      ></div>
+      <div
+        class="bottom-pane code-editor"
+        id="data"
+        contenteditable="plaintext-only"
+      ></div>
+    </div>
+    <div class="right-column">
+      <div
+        class="one-pane code-editor"
+        id="output"
+        contenteditable="plaintext-only"
+      ></div>
+      <div class="actions-pane">
+        <button id="copy">Copy</button>
+        <button id="generate">Generate</button>
+      </div>
+    </div>
+
+    <script src="src/index.js" type="module"></script>
+  </body>
+</html>
